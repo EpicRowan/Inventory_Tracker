@@ -4,7 +4,7 @@ import sqlite3
 
 root = Tk()
 
-#database
+#Database
 conn = sqlite3.connect('shrimp_data.db')
 c = conn.cursor()
 
